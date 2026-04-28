@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neon Memory Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="win-overlay">
+        <h1>VICTORY</h1>
+        <button onclick="closeWin()">PLAY AGAIN</button>
+    </div>
+    <div class="container">
+        <h1>MEMORY CARDS</h1>
+        <div class="modes">
+            <button onclick="startGame('easy')">EASY</button>
+            <button onclick="startGame('normal')">NORMAL</button>
+            <button onclick="startGame('hard')">HARD</button>
+        </div>
+        <div id="game-board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
